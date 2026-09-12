@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and product ideas
+    url: https://github.com/parlamix/kinpad/discussions
+    about: Ask a question or discuss an idea before filing an issue.
+  - name: Private security report
+    url: https://kinpad.org/security/
+    about: Report suspected vulnerabilities privately.
+  - name: Official downloads
+    url: https://kinpad.org/download/
+    about: Download KinPad and verify a release.

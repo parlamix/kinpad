@@ -1,0 +1,33 @@
+name: Focused improvement
+description: Propose a small improvement within KinPad's scope
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the writing problem. Ideas are considered, not promised. Broader discussion belongs in GitHub Discussions.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What makes writing harder today?
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+      description: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: Current workaround
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This keeps KinPad focused on uncomplicated, file-first writing.
+          required: true
